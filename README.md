@@ -3,11 +3,12 @@
 Este projeto foi desenvolvido como trabalho acadêmico para apresentar a história e evolução da contabilidade ao longo do tempo, desde suas origens até os dias atuais.
 
 👥 Integrantes
-Marcos
 
-Ana
+Verenilson da Silva Souza
 
-Paulo
+Fernanda
+
+Kewen
 
 🎯 Objetivo
 Criar uma plataforma educativa e interativa que permita compreender os principais marcos históricos da contabilidade, seus fundamentos e sua importância para a sociedade e economia.
