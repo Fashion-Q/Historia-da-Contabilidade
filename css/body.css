@@ -1,0 +1,114 @@
+.content-section {
+    width: 100%;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.history{
+    width: 100%;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.content-block {
+    display: flex;
+    align-items:start;
+    gap: 30px;
+}
+
+.content-image {
+    width: 300px;
+    height: 420px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0.6, 0.6);
+}
+
+/* Caminhos das imagens*/
+.ontem-img-1 {
+    background-image: url("/img/ontem.jpg");
+}
+
+.ontem-img-2 {
+    background-image: url("/img/ontem.jpg");
+}
+
+.ontem-img-3 {
+    background-image: url("/img/ontem.jpg");
+}
+
+.hoje-img-1 {
+    background-image: url("/img/hoje.jpeg");
+}
+
+.hoje-img-2 {
+    background-image: url("/img/hoje.jpeg");
+}
+
+.hoje-img-3 {
+    background-image: url("/img/hoje.jpeg");
+}
+
+.amanha-img-1 {
+    background-image: url("/img/amanha.png");
+}
+
+.amanha-img-2 {
+    background-image: url("/img/amanha.png");
+}
+
+.amanha-img-3 {
+    background-image: url("/img/amanha.png");
+}
+
+p{
+text-align: justify;
+}
+
+.content-text {
+    flex: 1;
+    font-size: 18px;
+    color: #333;
+    padding: 0px 10px 10px 10px;
+    margin-top: -15px;
+}
+
+/* Alternância dos blocos */
+.left-img {
+    flex-direction: row;
+}
+
+.right-img {
+    flex-direction: row-reverse;
+}
+
+/* RESPONSIVO */
+@media (max-width: 700px) {
+    .content-block {
+        flex-direction: column !important;
+        text-align: center;
+    }
+
+    .content-image {
+        width: 90%;
+        height: 300px;
+    }
+}
+
+#section-ontem,
+#section-ontem2,
+#section-hoje,
+#section-hoje2,
+#section-amanha,
+#section-amanha2 {
+    display: none;
+}
