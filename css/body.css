@@ -16,6 +16,18 @@
     gap: 60px;
 }
 
+.brief-history{
+    width: 100%;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+
 .content-block {
     display: flex;
     align-items:start;
@@ -33,9 +45,8 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0.6, 0.6);
 }
 
-/* Caminhos das imagens*/
 .ontem-img-1 {
-    background-image: url("/img/ontem.jpg");
+    background-image: url("/img/pedras-antigas.jpg");
 }
 
 .ontem-img-2 {
@@ -43,19 +54,19 @@
 }
 
 .ontem-img-3 {
-    background-image: url("/img/ontem.jpg");
+    background-image: url("/img/livro-sumerio.jpg");
 }
 
 .hoje-img-1 {
-    background-image: url("/img/hoje.jpeg");
+    background-image: url("/img/erp1.png");
 }
 
 .hoje-img-2 {
-    background-image: url("/img/hoje.jpeg");
+    background-image: url("/img/IFRS2.png");
 }
 
 .hoje-img-3 {
-    background-image: url("/img/hoje.jpeg");
+    background-image: url("/img/contador.png");
 }
 
 .amanha-img-1 {
@@ -63,11 +74,11 @@
 }
 
 .amanha-img-2 {
-    background-image: url("/img/amanha.png");
+    background-image: url("/img/Blockchain.jpg");
 }
 
 .amanha-img-3 {
-    background-image: url("/img/amanha.png");
+    background-image: url("/img/contabilidade-nuvem.jpg");
 }
 
 p{
@@ -82,7 +93,6 @@ text-align: justify;
     margin-top: -15px;
 }
 
-/* Alternância dos blocos */
 .left-img {
     flex-direction: row;
 }
@@ -91,7 +101,6 @@ text-align: justify;
     flex-direction: row-reverse;
 }
 
-/* RESPONSIVO */
 @media (max-width: 700px) {
     .content-block {
         flex-direction: column !important;

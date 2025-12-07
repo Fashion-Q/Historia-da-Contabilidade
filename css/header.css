@@ -16,7 +16,6 @@
     letter-spacing: 1px;
 }
 
-/* Layout das caixas */
 .day-section {
     display: flex;
     justify-content: center;
@@ -24,7 +23,6 @@
     padding: 40px;
 }
 
-/* Caixas Ontem / Hoje / Amanhã */
 .day-section .box {
     display: block;
     width: 280px;
@@ -47,9 +45,6 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /* Altere o caminho da imagem aqui: *//*
-    background-image: url("/img/amanha.png");*/
-    
 }
 
 .img-ontem {
@@ -62,7 +57,6 @@
     background-image: url("/img/amanha.png");
 }
 
-/* Título dentro da caixa */
 .day-section .box h2 {
     display: flex;
     background: rgba(0,0,0,0.6);
@@ -77,7 +71,6 @@
     border-radius: 0 0 12px 12px;
 }
 
-/* Responsividade para telas de até 400px */
 @media (max-width: 600px) {
     .top-header h1 {
         font-size: 30px;
