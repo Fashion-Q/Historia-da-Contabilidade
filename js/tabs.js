@@ -8,16 +8,18 @@ function mostrarSecao(id) {
     for (const key in sections) {
         sections[key].forEach(sec => {
             document.getElementById(sec).style.display = (key === id) ? "block" : "none";
+            let titulo = document.querySelector(`#${key} h2`);
+            if (key === id) {
+                titulo.style.background = "green";
+            } else {
+                titulo.style.background = "rgba(0,0,0,0.6)";
+            }
         });
     }
 }
-
-// BOTÕES (imagens clicáveis)
 
 document.getElementById("ontem").addEventListener("click", () => mostrarSecao("ontem"));
 document.getElementById("hoje").addEventListener("click", () => mostrarSecao("hoje"));
 document.getElementById("amanha").addEventListener("click", () => mostrarSecao("amanha"));
 
-
-// Estado inicial -> mostrar somente "Hoje"
-mostrarSecao("hoje");
+mostrarSecao("ontem");

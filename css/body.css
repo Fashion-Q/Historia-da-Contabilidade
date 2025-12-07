@@ -46,39 +46,39 @@
 }
 
 .ontem-img-1 {
-    background-image: url("/img/pedras-antigas.jpg");
+    background-image: url("../img/pedras-antigas.jpg");
 }
 
 .ontem-img-2 {
-    background-image: url("/img/ontem.jpg");
+    background-image: url("../img/ontem.jpg");
 }
 
 .ontem-img-3 {
-    background-image: url("/img/livro-sumerio.jpg");
+    background-image: url("../img/livro-sumerio.jpg");
 }
 
 .hoje-img-1 {
-    background-image: url("/img/erp1.png");
+    background-image: url("../img/erp1.png");
 }
 
 .hoje-img-2 {
-    background-image: url("/img/IFRS2.png");
+    background-image: url("../img/IFRS2.png");
 }
 
 .hoje-img-3 {
-    background-image: url("/img/contador.png");
+    background-image: url("../img/contador.png");
 }
 
 .amanha-img-1 {
-    background-image: url("/img/amanha.png");
+    background-image: url("../img/amanha.png");
 }
 
 .amanha-img-2 {
-    background-image: url("/img/Blockchain.jpg");
+    background-image: url("../img/Blockchain.jpg");
 }
 
 .amanha-img-3 {
-    background-image: url("/img/contabilidade-nuvem.jpg");
+    background-image: url("../img/contabilidade-nuvem.jpg");
 }
 
 p{

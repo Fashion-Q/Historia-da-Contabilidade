@@ -48,13 +48,13 @@
 }
 
 .img-ontem {
-    background-image: url("/img/ontem.jpg");
+    background-image: url("../img/ontem.jpg");
 }
 .img-hoje {
-    background-image: url("/img/hoje.jpeg");
+    background-image: url("../img/hoje.jpeg");
 }
 .img-amanha {
-    background-image: url("/img/amanha.png");
+    background-image: url("../img/amanha.png");
 }
 
 .day-section .box h2 {
